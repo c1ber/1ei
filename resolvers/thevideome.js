@@ -4,18 +4,15 @@
 // @version      0.4
 // @description  try to take over the world!
 // @author       You
-// @match        http://thevideo.me/*
+// @match        https://thevideo.me/*
 // @match        https://openload.co/*
-// @match        http://gorillavid.in/* 
-// @match        http://daclips.in/* 
+// @match        https://gorillavid.in/* 
+// @match        https://daclips.in/* 
 // @match        http://allmyvideos.net/* 
-// @match        http://vidbull.com/* 
 // @match        http://movpod.in/* 
-// @match        http://vodlocker.com/* 
-// @match        http://filehoot.com/* 
+// @match        http://www.vodlocker.com/* 
 // @match        http://streamin.to/* 
-// @match        http://vidzi.tv/* 
-// @match        http://nosvideo.com/* 
+// @match        http://vidzi.nu/*  
 // @match        http://vidspot.net/* 
 // @match        http://vidto.me/* 
 // @match        http://vshare.eu/* 
@@ -61,10 +58,10 @@ if(location.href.indexOf("https://openload.co/")>-1)
     //window.resetPP = resetPP;
     //window.setTimeout("window.resetPP();", 2000);
 }
-else if(location.href.indexOf("http://thevideo.me/")>-1)
+else if(location.href.indexOf("https://thevideo.me/")>-1)
 {
     if(location.href.indexOf("embed")==-1)
-        location.href = location.href.replace("http://thevideo.me/", "http://thevideo.me/embed-") + "-640x360.html"
+        location.href = location.href.replace("https://thevideo.me/", "https://thevideo.me/embed-") + "-640x360.html"
 
         $("#veriform").submit();
     $(".player_hover_a").hide();
