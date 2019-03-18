@@ -50,4 +50,3 @@ function getMatches(string, regex, index) {
     }
     return matches;
   }
-  
